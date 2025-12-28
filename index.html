@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Của Duy</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; scroll-behavior: smooth; }
+        section { background: white; padding: 25px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        
+        /* Phần ảnh đại diện mới */
+        .avatar-container { text-align: center; margin-bottom: 20px; }
+        .avatar { 
+            width: 180px; 
+            height: 180px; 
+            border-radius: 50%; 
+            object-fit: cover; 
+            border: 4px solid #007bff; 
+            box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+        }
+
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px; background: #000; margin-top: 15px; }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+        .character-section { background: #1a1a1a; color: white; border-left: 8px solid #e74c3c; }
+        .btn { display: inline-block; background: #007bff; color: white; padding: 12px 25px; text-decoration: none; border-radius: 25px; font-weight: bold; transition: 0.3s; }
+        .btn:hover { background: #0056b3; transform: scale(1.05); }
+    </style>
+</head>
+<body>
+
+    <section id="home">
+        <div class="avatar-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjhiMiZuQQny1RTRT8cOpm1WQuANP3SDw9AA&s" alt="Ảnh đại diện của Duy" class="avatar">
+            <h1>Chào mừng đến với không gian của Duy!</h1>
+            <p style="color: #666;">Học sinh - Lập trình viên tương lai - Yêu thích thám tử</p>
+        </div>
+        
+        <h2>Thông tin cá nhân</h2>
+        <ul>
+            <li><strong>Họ và tên:</strong> Kiều Lâm Duy</li>
+            <li><strong>Sở thích:</strong> Chạy bộ, học lập trình, đọc truyện Sherlock Holmes.</li>
+            <li><strong>Nơi ở:</strong> Boston, USA</li>
+        </ul>
+        <a href="#character" class="btn">Khám phá nhân vật yêu thích ➔</a>
+    </section>
+
+    <section>
+        <h3>🎵 Không gian âm nhạc Lofi</h3>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/cjJeAjXoN7U" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="character" class="character-section">
+        <h2>🌟 Sherlock Holmes</h2>
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: center;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHSTmDbsa7X2daeNkH3SOLnVjw3xprYfCqGA&s" style="width: 200px; border-radius: 10px; border: 2px solid #fff;">
+            <p style="flex: 1; font-size: 1.1em;">"Loại trừ những gì không thể, cái còn lại dù vô lý đến đâu cũng là sự thật." Duy cực kỳ ấn tượng với phong cách phá án dựa trên logic thuần túy của vị thám tử này.</p>
+        </div>
+
+        <h4 style="margin-top: 25px;">Khoảnh khắc kinh điển:</h4>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/h81-Xv5AdIg" allowfullscreen></iframe>
+        </div>
+        <br>
+        <a href="#home" style="color: #e74c3c; text-decoration: none;">↑ Quay lại đầu trang</a>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; color: #888;">
+        <p>Liên hệ: <a href="mailto:dwuyskibidi123@gmail.com" style="color: #007bff;">dwuyskibidi123@gmail.com</a></p>
+        <p>&copy; 2025 Duy's Portfolio - Boston</p>
+    </footer>
+
+</body>
+</html>
